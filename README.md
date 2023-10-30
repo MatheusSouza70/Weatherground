@@ -159,3 +159,5 @@ The setInterval() method is a JavaScript function that repeatedly calls a specif
 ```javascript
 setInterval(updatePageData, 1000);
 ```
+
+<h1 align="center"> ☁️ How does it looks?. ☁️</h1>
