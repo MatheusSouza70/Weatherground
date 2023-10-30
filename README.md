@@ -161,3 +161,12 @@ setInterval(updatePageData, 1000);
 ```
 
 <h1 align="center"> ☁️ How does it looks?. ☁️</h1>
+
+Morning
+![](https://cdn.discordapp.com/attachments/704805407906070581/1168593138160500798/image.png?ex=6552542b&is=653fdf2b&hm=3964cd0b25759eb694e375f975238a22bb918a83a2e9ade73ffeea60bd732b62&)
+
+Afternoon
+![](https://cdn.discordapp.com/attachments/704805407906070581/1168593467887337582/image.png?ex=6552547a&is=653fdf7a&hm=9369cc7034149dac2d74e70f01c00b0b89632df2f189db300ab3e73a9910ac0c&)
+
+Night
+![](https://cdn.discordapp.com/attachments/704805407906070581/1168593676600086628/image.png?ex=655254ab&is=653fdfab&hm=f6a3bcb993093a77c2c1026164f41df8f6ec5be96b8aa45574b526a0e2491b9c&)
