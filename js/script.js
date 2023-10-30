@@ -1,5 +1,5 @@
 // OpenWeatherMap API key for fetching weather data
-const apiKey = "15d6b3219b5468771252ce5a991565a9";
+const apiKey = "YOUR_KEY";
 
 // OpenWeatherMap API endpoint for weather data
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather";
