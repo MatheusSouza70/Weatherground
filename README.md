@@ -13,6 +13,7 @@
 <h1 align="center"> ☁️ What was used? ☁️</h1>
 
 [API Open Weather](https://api.openweathermap.org)
+<br>
 [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
   
 <h1 align="center"> ☁️ How to use? ☁️</h1>
