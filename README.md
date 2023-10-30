@@ -11,6 +11,7 @@
 <p> - This project focuses on developing a responsive landing page where the user has a different visual experience at three different times and periods of the day.</p>
 
 <h1 align="center"> ☁️ What was used? ☁️</h1>
+
 [API Open Weather](https://api.openweathermap.org)
 [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
   
