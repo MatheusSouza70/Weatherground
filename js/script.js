@@ -1,7 +1,4 @@
-// OpenWeatherMap API key for fetching weather data
 const apiKey = "YOUR_KEY";
-
-// OpenWeatherMap API endpoint for weather data
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather";
 
 // Function to update the background image based on the current time
@@ -18,7 +15,6 @@ function updateBackgroundImage() {
     backgroundImageUrl = "./img/night.jpg";
   }
 
-  // Apply the selected background image to the body
   document.body.style.backgroundImage = `url(${backgroundImageUrl})`;
 }
 
@@ -56,7 +52,6 @@ function fetchWeatherData(latitude, longitude) {
       return response.json();
     })
     .then((data) => {
-      // Extract weather information from the API response
       const weatherDescription = data.weather[0].description;
       const temperature = data.main.temp;
       const cityName = data.name;
@@ -64,13 +59,11 @@ function fetchWeatherData(latitude, longitude) {
       const weatherInfo = `Clima: ${weatherDescription}<br>Temperatura: ${temperature}°C`;
       const weatherIconUrl = `http://openweathermap.org/img/w/${weatherIcon}.png`;
 
-      // Update weather information on the webpage
       document.getElementById("weather-info").innerHTML = weatherInfo;
       document.getElementById("city").textContent = `Cidade: ${cityName}`;
       document.getElementById("weather-icon").src = weatherIconUrl;
     })
     .catch((error) => {
-      // Handle errors when fetching weather data
       console.error("Error fetching weather data:", error);
       document.getElementById("weather-info").textContent =
         "Weather data not available";
