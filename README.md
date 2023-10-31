@@ -143,7 +143,8 @@ function updateTime() {
 This function serves as the main function to update all dynamic content on the webpage. It calls the following functions in sequence: updateBackgroundImage(), fetchWeatherData(), updateTime(), and updateCardBorders(). By executing these functions, the webpage's background image, weather information, current time, and card borders are all dynamically updated based on the user's local time and location.
 
 ```javascript
- // Update background image based on the time of day
+ function updatePageData() {
+  // Update background image based on the time of day
   updateBackgroundImage();
 
   // Get current geolocation and fetch weather data
@@ -151,6 +152,15 @@ This function serves as the main function to update all dynamic content on the w
     const { latitude, longitude } = position.coords;
     fetchWeatherData(latitude, longitude);
   });
+
+  // Update current time on the webpage
+  updateTime();
+
+  // Update card borders based on the time of day
+  updateCardBorders();
+}
+
+updatePageData();
 ```
 
 ### 6. setInterval(callback, interval)
